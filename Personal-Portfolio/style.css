@@ -18,3 +18,33 @@ p {
   max-width: 600px;
   font-size: 18px;
 }
+
+nav {
+    margin-bottom: 40px;
+}
+
+nav a{
+    color: #8ae1b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav a{
+    margin-right: 20px;
+}
+section{
+    margin-bottom: 60px;
+}
+
+h2{
+    color: #8ae1b9;
+    font-style: italic;
+    font-size: 30px;
+}
+li{
+    margin-bottom: 10px;
+}
