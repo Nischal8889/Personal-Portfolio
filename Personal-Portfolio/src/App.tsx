@@ -2,6 +2,7 @@ import profilePhoto from "../images/profile.jpeg";
 import Header from "./components/Header";
 import Education from "./components/Education";
 import Skills from "./components/Skills";
+import Work from "./components/Work";
 
 export default function App() {
   return (
@@ -25,8 +26,8 @@ export default function App() {
             <h1>Nischal Shrestha</h1>
 
             <p className="intro-description">
-              I am learning software development and building practical
-              projects.
+              I am a Computer Science student at Weber State University building
+              software and exploring data science through practical projects.
             </p>
 
             <p className="intro-description">
@@ -49,6 +50,10 @@ export default function App() {
                 LinkedIn ↗
               </a>
 
+              <a className="hero-button" href="/Nischal_Shrestha_Resume.pdf" download="Nischal_Shrestha_Resume.pdf">
+                Download resume ↓
+              </a>
+
               <a className="hero-button primary-button" href="#contact">
                 Get in touch
               </a>
@@ -63,6 +68,8 @@ export default function App() {
         <Education />
 
         <Skills />
+
+        <Work />
 
         {/* Contact section */}
         <section id="contact" className="container">
